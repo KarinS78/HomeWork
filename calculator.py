@@ -1,5 +1,5 @@
 import pytest
-import math
+
 
 def add(a,b):
     return a+b
@@ -20,8 +20,7 @@ def mudolo(a,b):
     return a%b
 
 def sqrt(a):
-    b = math.sqrt(a)
-    return b
+   return a **0.5
 
 '''---------------TESTS---------------'''
 def test_add():
